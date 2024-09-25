@@ -33,7 +33,7 @@ class BestSellerListViewItem extends StatelessWidget {
                         style: Styles.textStyle19,
                       ),
                       SizedBox(width: 36.3.w,),
-                      const Icon(Icons.star,color: starColor),
+                      const Icon(Icons.star_rounded,color: starColor),
                       SizedBox(width: 6.3.w,),
 
                       const Text('4.8',
