@@ -1,9 +1,11 @@
-import 'package:clean_arch/core/utils/assets.dart';
-import 'package:clean_arch/core/utils/constants/constants.dart';
-import 'package:clean_arch/features/screens/home/presnentaion/views/home_view.dart';
-import 'package:clean_arch/features/screens/splash/presentation/views/widgets/sliding_text.dart';
+import 'package:Bookly/features/screens/splash/presentation/views/widgets/sliding_text.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
+
+import '../../../../../../core/utils/assets.dart';
+import '../../../../../../core/utils/constants/constants.dart';
+import '../../../../home/presnentaion/views/home_view.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({Key? key}) : super(key: key);
