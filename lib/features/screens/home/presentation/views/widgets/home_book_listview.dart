@@ -1,4 +1,4 @@
-import 'package:Bookly/features/screens/home/presnentaion/views/widgets/custom_listview_item.dart';
+import 'package:Bookly/features/screens/home/presentation/views/widgets/custom_listview_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 class HomeBookListView extends StatelessWidget {
