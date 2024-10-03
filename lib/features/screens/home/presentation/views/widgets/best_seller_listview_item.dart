@@ -1,7 +1,7 @@
 import 'package:Bookly/core/utils/app_router.dart';
 import 'package:Bookly/core/utils/assets.dart';
-import 'package:Bookly/core/utils/constants/constants.dart';
 import 'package:Bookly/core/utils/styles.dart';
+import 'package:Bookly/features/screens/home/presentation/views/widgets/custom_book_review.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
@@ -31,23 +31,7 @@ class BestSellerListViewItem extends StatelessWidget {
                 const Text('J.K. Rowling',
                   style: Styles.textStyle14,
                 ),
-                Row(
-                  children: [
-                    Text('19.99 €',
-                      style: Styles.textStyle19,
-                    ),
-                    SizedBox(width: 36.3.w,),
-                    const Icon(Icons.star_rounded,color: starColor),
-                    SizedBox(width: 6.3.w,),
-                    const Text('4.8',
-                      style: Styles.textStyle16,
-                    ),
-                    SizedBox(width: 5.w,),
-                    const Text('(2390)',
-                      style: Styles.textStyle14,
-                    ),
-                  ],
-                )
+             const CustomBookReview(),
               ],
             )
           ],
