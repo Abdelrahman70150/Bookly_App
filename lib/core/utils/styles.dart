@@ -5,7 +5,7 @@ abstract class Styles {
   static const textStyle18 =
       TextStyle(fontWeight: FontWeight.w600, fontSize: 18);
   static  TextStyle textStyle19 =
-  GoogleFonts.almendra(fontWeight: FontWeight.normal, fontSize: 19,color: Colors.white);
+  GoogleFonts.almendra(fontWeight: FontWeight.w500, fontSize: 19,color: Colors.white);
   static const textStyle14 =
   TextStyle(fontWeight: FontWeight.w500, fontSize: 14,color: Colors.white60);
   static const textStyle16 =

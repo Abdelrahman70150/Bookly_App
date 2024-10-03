@@ -31,7 +31,12 @@ class BestSellerListViewItem extends StatelessWidget {
                 const Text('J.K. Rowling',
                   style: Styles.textStyle14,
                 ),
-             const CustomBookReview(),
+            Row(
+              children: [
+              Text('19.99 €',style:Styles.textStyle19,),
+               SizedBox(width: 36.3.w,),
+               CustomBookReview(),
+            ],)
               ],
             )
           ],
