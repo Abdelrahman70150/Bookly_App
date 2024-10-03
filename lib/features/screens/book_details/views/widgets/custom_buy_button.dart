@@ -17,7 +17,7 @@ class CustomBuyButton extends StatelessWidget {
   final Color textColor;
   final double topRightRadius;
   final double topLeftRadius;
-  final  double bottomRightRadius;
+  final double bottomRightRadius;
   final double bottomLeftRadius;
   final double rightPadding;
   final double leftPadding;
