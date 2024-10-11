@@ -11,7 +11,7 @@ class BestSellerListViewItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return InkWell(
       onTap: (){
         GoRouter.of(context).push(AppRouter.kBookDetailsView);
       },
@@ -35,7 +35,7 @@ class BestSellerListViewItem extends StatelessWidget {
               children: [
               Text('19.99 €',style:Styles.textStyle19,),
                SizedBox(width: 36.3.w,),
-               CustomBookReview(),
+               const CustomBookReview(),
             ],)
               ],
             )
